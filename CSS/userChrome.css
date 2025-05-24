@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'Cattie-Regular';
+  src: url('Cattie-Regular.ttf') format('truetype');
+}
+
+browser,
+.browserStack,
+.browserContainer,
+/*#statuspanel,*/
+#tabbrowser-tabpanels,
+hbox#zen-tabbox-wrapper
+{
+  background-image: url('bongo-cat-transparent.gif')  !important;
+  background-repeat: repeat  !important;
+  background-position: center !important;
+}
+
+
+div#urlbar[zen-floating-urlbar] hbox#urlbar-background {
+
+      background-image: url('patterndark.png')  !important;
+      background-repeat: repeat  !important;
+      background-position: center !important;
+
+}
+
+div#urlbar[breakout-extend]:not([zen-floating-urlbar]) hbox#urlbar-background {
+
+      background-image: url('bigsearch.png')  !important;
+      background-repeat: repeat  !important;
+      background-position: center !important;
+
+}
+
+
+/*div#urlbar:not([zen-floating-urlbar]) vbox.urlbarView {
+  background-image: url('bigsearch.png')  !important;
+  background-repeat: repeat  !important;
+  background-position: center !important;;
+*/
+}
+#urlbar-background
+{
+
+} 
+
+#zen-main-app-wrapper
+{
+      background-image: url('darkfish.png')  !important;
+      background-repeat: repeat  !important;
+      background-position: -200px 0px !important;
+      background-size: contain !important; 
+}
+
+
+toolbox#navigator-toolbox{
+  background-image: url('darkfish.png')  !important;
+  background-repeat: repeat  !important;
+  background-size: contain !important; 
+}
+
+#zen-current-workspace-indicator
+{
+  padding-top: 0  !important;
+  padding-bottom: 0  !important;
+  padding-right: 0  !important;
+  /*padding-left:  0 !important;*/
+
+}
+
+hbox#zen-current-workspace-indicator-icon {
+    font-size: 40px !important;
+    color: transparent !important;
+    background-image: url('BillyTheKitten_Sprite.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+hbox#zen-current-workspace-indicator-name {
+  position: relative !important;
+  font-family: 'Cattie-Regular' !important;
+  font-size: 45pt !important;
+
+  font-weight:  20 !important;
+  color: white;
+  
+}
+hbox#zen-current-workspace-indicator-name::first-letter {
+
+}
+
+#zen-watermark image {
+   display: none; 
+
+}
+
+#zen-watermark {
+  
+  background: url('bongo-cat-transparent.gif') center center !important; 
+   /* background-size: auto !important;Ensures the GIF covers the entire div */
+  height: 100vh !important; /* Takes up 100% of the viewport height */
+  width: 100vw !important; /* Takes up 100% of the viewport width */
+  position: absolute; /* Makes sure it stays fixed to cover the whole screen */
+  top: 0;
+  left: 0;
+  background-size: contain;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  
+}
+
+
+
+
+#identity-icon-box image{
+   display: none; 
+
+}
+
+box#identity-icon-box{
+  
+    background-image: url('Conductor_Whiskers_gray.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 10px !important;
+  
+}
+
+#downloads-button image{
+  display:none;
+}
+
+toolbarbutton#downloads-button{
+  
+  background-image: url('BillyTheKitten_Sprite.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+}
+
+#preferences-button image{
+  display:none;
+}
+
+toolbarbutton#preferences-button{
+  
+  background-image: url('Informeow_Sprite.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+hbox#urlbar-background{
+  background-image: url('Manga1_P1-removebg-preview.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+

@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Cattie-Regular';
+  src: url('Cattie-Regular.ttf') format('truetype');
+}
+
+/*
+div.fxs-portal-bg-txt-br,
+section.fxs-portal-bg-txt-br,
+header.fxs-portal-background,*/
+/*
+.fxs-hover-card-balloon.fxs-portal-bg-txt-br,
+.fxs-hover-card-balloon
+{
+  background-color: var(--colorContainerBackgroundPrimary) !important !important;
+}*/
+.fxs-mode-standardcontrast .fxs-dropmenu-content,
+.fxs-mode-standardcontrast .fxc-dropdown-popup,
+.fxs-mode-standardcontrast .fxs-blade-locked,
+.fxs-mode-standardcontrast .fxs-portal-background,
+.fxs-mode-standardcontrast .fxs-portal-bg-txt-br ,
+.fxs-mode-standardcontrast .fxs-home-target:not(fxs-hover-card-balloon),
+img.transparent,
+.body-216, /*weird azure portal element*/
+.IiOSLb .rsGxI.Ww4FFb, .Ww4FFb, /*google search*/
+.dG2XIf,
+.mw-page-container, /*wikipedia*/
+.vector-header-container .mw-header, .vector-header-container .vector-sticky-header,
+.vector-pinned-container
+{
+  background-image: url('patterndark.png') !important;;
+  background-repeat: repeat  !important;
+  background-attachment: fixed; /* Optional: to make the background fixed when scrolling */
+}
+
+
+#preferences-body {
+
+}
+
+/* azure loading */
+/*
+div.fxc-gc-loading
+{
+  background: url('bongo-cat-transparent.gif') center center !important; 
+  height: 100vh !important;
+  width: 100vw !important; 
+  background-size: contain;
+  background-repeat: no-repeat !important;
+  background-position: center;
+}
+*/
+div.fxs-splashscreen-logo 
+{
+  background: url('bongo-cat-transparent.gif') center center !important; 
+  height: 100vh !important; /* Takes up 100% of the viewport height */
+  width: 100vw !important; /* Takes up 100% of the viewport width */
+  background-size: contain;
+  background-repeat: no-repeat !important;
+  background-position: center;
+}
+
+div.fxs-progress-dots /* progress dots for azure resource groups and other widgets */
+{
+  min-width: 200px;  /* Adjust based on your requirements */
+  min-height: 123px; /* Adjust based on your requirements */
+  background: url('bongo-cat-transparent.gif')  center center !important; 
+  background-position: center;
+  background-repeat: no-repeat !important;
+
+  /*height: 100vh !important;
+  width: 100vw !important; 
+  background-size: contain;
+  background-repeat: no-repeat !important;
+  background-position: center;*/
+}
+div.fxs-splashscreen-logo svg {
+   display: none; 
+
+}
+div.fxs-progress-dots-dot,
+div.fxs-progress-dots-dot-shadow
+{/*general azure portal spinners*/
+  background-color: transparent !important;
+  box-shadow: 0 0 0 0 transparent !important;
+}
+
+div.fxs-splashscreen  /* azure login  background */
+{
+  background: transparent !important;
+}
+.sfbg,
+body /*General body hiding*/
+{
+  background: transparent !important;
+}
+
+html {
+  background-image: url('patterndark.png') !important;;
+  background-repeat: repeat  !important;
+  background-attachment: fixed; /* Optional: to make the background fixed when scrolling */
+}
+
+html > * {
+  background-image: none !important;;
+  background: transparent !important; /* Ensures all direct children have a transparent background */
+}
+
+div[style="background: rgb(0, 114, 198);"] {
+       background: transparent !important;
+}
+
+
+vbox.navigation /*firefox settings*/
+{
+  background: transparent !important;
+}
+vbox.main-content /*firefox settings*/
+{
+  background: transparent !important;
+}
