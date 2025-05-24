@@ -165,4 +165,15 @@ hbox#urlbar-background{
   background-position: right;
 }
 
+.tabbrowser-tab[pinned][label='F1 Fantasy Game'] .tab-icon-image{
+  display: none;
+}
 
+.tabbrowser-tab[pinned][label='F1 Fantasy Game']  {
+  list-style-image: none !important;
+  background-image: url('pixel-art-illustration-f1-car-600nw-2384436547-removebg-preview.png') !important;;
+  background-size: contain;
+  background-repeat: no-repeat !important;;
+  background-position: center !important;;
+
+}
