@@ -177,3 +177,19 @@ hbox#urlbar-background{
   background-position: center !important;;
 
 }
+
+
+.tabbrowser-tab[pinned][label='(66) YouTube'] .tab-icon-image{
+  display: none;
+}
+
+.tabbrowser-tab[pinned][label='(66) YouTube']  {
+  list-style-image: none !important;
+  background-image: url('images-removebg-preview.png') !important;;
+  background-size: 50% !important;;
+  background-repeat: no-repeat !important;;
+  background-position: center !important;;
+
+}
+
+
