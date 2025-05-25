@@ -193,3 +193,15 @@ hbox#urlbar-background{
 }
 
 
+.tabbrowser-tab[pinned][label='Pinterest'] .tab-icon-image{
+  display: none;
+}
+
+.tabbrowser-tab[pinned][label='Pinterest']  {
+  list-style-image: none !important;
+  background-image: url('Screenshot_2025-05-25_141937-removebg-preview.png') !important;;
+  background-size: 50% !important;;
+  background-repeat: no-repeat !important;;
+  background-position: center !important;;
+
+}
