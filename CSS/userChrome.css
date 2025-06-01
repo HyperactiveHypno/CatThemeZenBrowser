@@ -178,19 +178,24 @@ hbox#urlbar-background{
 
 }
 
-
-.tabbrowser-tab[pinned][label='(66) YouTube'] .tab-icon-image{
-  display: none;
-}
-
-.tabbrowser-tab[pinned][label='(66) YouTube']  {
+.tabbrowser-tab[pinned][label='(66) YouTube'] .tab-icon-image {
+  /*background-image: url('images-removebg-preview.png') !important;*/
+  background-size: 150% !important;  /* Increased from 100% */
+  background-repeat: no-repeat !important;
+  background-position: center !important;
   list-style-image: none !important;
-  background-image: url('images-removebg-preview.png') !important;;
-  background-size: 50% !important;;
-  background-repeat: no-repeat !important;;
-  background-position: center !important;;
-
+  -moz-image-region: rect(0, 0, 0, 0) !important;
+  width: 24px !important;  /* Added explicit width */
+  height: 24px !important; /* Added explicit height */
 }
+.tabbrowser-tab[pinned][label='(66) YouTube'] .tab-icon-image::before,
+.tabbrowser-tab[pinned][label='(66) YouTube'] .tab-icon-image::after {
+  display: none !important;
+}
+.tabbrowser-tab[pinned][label='(66) YouTube'] .tab-icon-image[src] {
+  content: url('images-removebg-preview.png') !important;
+}
+
 
 
 .tabbrowser-tab[pinned][label='Pinterest'] .tab-icon-image{
